@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+ul{
+  height: 100px;
+  background-color: black;
+  color:white;
+  display: flex;
+
+  font-size: 26px;
+  list-style: none;
+  gap:20px
+}
+
+
+a{
+  color:white;
+  text-decoration: none;
+  transition: all 0.5s ease-in;
+
+  &:hover{
+    color:red;
+    text-decoration: underline;
+  }
+
+}
