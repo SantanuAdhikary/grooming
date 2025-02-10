@@ -1,0 +1,46 @@
+.main{
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;
+    height: calc(100vh - 350px);
+    background-color: azure;
+    align-items: center;
+}
+
+.box{
+    height: 250px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px rgba(0,0,0,0.8);
+    cursor: pointer;
+    transition:transform 0.3s ease-in ;
+
+    &:hover{
+        transform: translate(-20px,-10px);
+    }
+}
+
+.box > img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

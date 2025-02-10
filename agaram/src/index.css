@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ! css for navbar */
+
+nav{
+  height: 80px;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > .right > ul{
+  display: flex;
+  list-style: none;
+}
+
+nav > .right > ul > li{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
