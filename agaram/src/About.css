@@ -1,0 +1,49 @@
+
+
+h1, h2{
+    text-align: center;
+    
+
+}
+
+main{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+main > h1{
+    letter-spacing: 1px ;
+    text-transform: capitalize;
+    text-shadow: 0px 5px 4px rgba(0,0,0,0.5);
+}
+.AboutContainer > li{
+
+    list-style: none;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 3px;
+    transition: all 0.4s ease-in;
+    letter-spacing: 1px;
+    
+    &:hover{
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+
+    }
+    
+}
+
+.AboutContainer > li:nth-child(2n+1)
+{
+    background-color: antiquewhite;
+}
+.AboutContainer > li:nth-child(2n)
+{
+    background-color: lightgrey;
+}

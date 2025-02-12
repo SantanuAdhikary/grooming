@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <>
 
-    <Navbar/>
 
     <div className="main">
         <h1> welcome to my webpage</h1>
