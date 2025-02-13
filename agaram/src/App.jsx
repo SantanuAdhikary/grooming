@@ -7,6 +7,8 @@ import About from "./About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cotact from "./Cotact";
 import ErrorPate from "./ErrorPate";
+import Conditions from "./Conditions";
+import Event from "./Event";
 
 let App = () => {
   return (
@@ -18,6 +20,8 @@ let App = () => {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Cotact />}></Route>
+          <Route path="/conditions" element={<Conditions />}></Route>
+          <Route path="/events" element={<Event />}></Route>
           <Route path="*" element={<ErrorPate />}></Route>
         </Routes>
       </BrowserRouter>
